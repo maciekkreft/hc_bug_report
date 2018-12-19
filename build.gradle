@@ -75,3 +75,8 @@ compileTestKotlin {
 shadowJar {
     archiveName = "happyco-test.jar"
 }
+
+run {
+    args += 'Mynd' // #2 setup your accountId
+    args += 'aWdv????????????????????bXluZA==' // #3 setup your token
+}
